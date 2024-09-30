@@ -58,7 +58,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="./static/videos/nerfies_paper.pdf"
+                <a href="./static/pdf/ICLR_2025_TopoGaussian.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -87,7 +87,7 @@
               </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="here"
+                <a href="https://github.com/Topo-Gaussian/TopoGaussian-code"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -160,7 +160,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Method</h2>
         <div class="content has-text-justified">
-          <img src="./static/images/overview.png"
+          <img src="./static/images/pipeline.png"
                class="framework-image"
                alt="TopoGaussian overview."/>
           <p>
@@ -184,9 +184,9 @@
 <!-- Rigid Body -->
 <section class="section"></section>
   <div class="container is-max-desktop">
-    <h2 class="title is-3" style="text-align: center;">Rigid Body</h2>
+    <h2 class="title is-3" style="text-align: center;">Rigid Body Results</h2>
       <div class="image-container">
-        <h2 class="title is-4">Main Results</h2>
+        <!-- <h2 class="title is-4">Main Results</h2> -->
             <!-- <img style="width: 90%;" src="./static/images/gallery.jpg"/> -->
              <div>
               <!-- <div style="float:left;margin-right:10px;writing-mode:vertical-lr">frog</div> -->
@@ -300,48 +300,59 @@
       </div>
 
       <br/>
-      <div class="image-container">
-        <h2 class="title is-4">Real-World Validation</h2>
-
-          <h3 class="title is-6">Hawk</h3>
-            <img style="width: 23%;" src="./static/images/hawk/gt.jpg"/>
-            <img style="width: 23%;" src="./static/images/hawk/init.gif"/>
-            <img style="width: 23%;" src="./static/images/hawk/opt.png"/>
-            <img style="width: 23%;" src="./static/images/hawk/inner.png"/>
-            <br/>
-          <h3 class="title is-6">Qiqi</h3>
-          <img style="width: 23%;" src="./static/images/qiqi/gt.gif"/>
-          <img style="width: 23%;" src="./static/images/qiqi/init.gif"/>
-          <img style="width: 23%;" src="./static/images/qiqi/opt.gif"/>
-          <img style="width: 23%;" src="./static/images/qiqi/inner.png"/>
-            <br/>
-          <h3 class="title is-6">Tumbler</h3>  
-          <img style="width: 23%;" src="./static/images/tumbler/gt.gif"/>
-          <img style="width: 23%;" src="./static/images/tumbler/init.gif"/>
-          <img style="width: 23%;" src="./static/images/tumbler/opt.gif"/>
-          <img style="width: 23%;" src="./static/images/tumbler/inner.png"/>
-            <br/>
-            </object>
-      </div>
 
     </div>
   <script src="./static/js/comparison.js"></script>
   </div>
 </section>
+<hr>
 
 <!-- Soft Body -->
 <section class="section"></section>
   <div class="container is-max-desktop">
-    <h2 class="title is-3" style="text-align: center;">Soft Body</h2>
+    <h2 class="title is-3" style="text-align: center;">Soft Body Results</h2>
       <div class="image-container">
-        <h2 class="title is-4">Main Results</h2>
+        <!-- <h2 class="title is-4">Main Results</h2> -->
             <img style="width: 90%;" src="./static/images/soft_syn.png"/>
             </object>
       </div>
 
       <br/>
+    </div>
+  </div>
+</section>
+<hr>
+
+<section class="section"></section>
+  <div class="container is-max-desktop">
+    <h2 class="title is-3" style="text-align: center;">Real-World Validation</h2>
+    <div class="image-container">
+      <h2 class="title is-4">Rigid Body</h2>
+    
+        <h3 class="title is-6">Hawk</h3>
+          <img style="width: 23%;" src="./static/images/hawk/gt.jpg"/>
+          <img style="width: 23%;" src="./static/images/hawk/init.gif"/>
+          <img style="width: 23%;" src="./static/images/hawk/opt.png"/>
+          <img style="width: 23%;" src="./static/images/hawk/inner.png"/>
+          <br/>
+        <h3 class="title is-6">Qiqi</h3>
+        <img style="width: 23%;" src="./static/images/qiqi/gt.gif"/>
+        <img style="width: 23%;" src="./static/images/qiqi/init.gif"/>
+        <img style="width: 23%;" src="./static/images/qiqi/opt.gif"/>
+        <img style="width: 23%;" src="./static/images/qiqi/inner.png"/>
+          <br/>
+        <h3 class="title is-6">Tumbler</h3>  
+        <img style="width: 23%;" src="./static/images/tumbler/gt.gif"/>
+        <img style="width: 23%;" src="./static/images/tumbler/init.gif"/>
+        <img style="width: 23%;" src="./static/images/tumbler/opt.gif"/>
+        <img style="width: 23%;" src="./static/images/tumbler/inner.png"/>
+          <br/>
+          </object>
+    </div>
+
+      <br/>
       <div class="image-container">
-        <h2 class="title is-4">Real-World Validation</h2>
+        <h2 class="title is-4">Soft Body</h2>
         <img style="width: 23%;" src="./static/images/hand/gt.jpg"/>
         <img style="width: 23%;" src="./static/images/hand/init.png"/>
         <img style="width: 23%;" src="./static/images/hand/opt.png"/>
@@ -350,10 +361,9 @@
       </div>
 
     </div>
-  <script src="./static/js/comparison.js"></script>
   </div>
 </section>
-
+<hr>
 <!-- Comparison -->
 <section class="section"></section>
   <div class="container is-max-desktop">
@@ -395,10 +405,10 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="./static/pdf/ICLR_2025_TopoGaussian.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/Topo-Gaussian/TopoGaussian-code" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
