@@ -214,7 +214,7 @@
               <img style="width: 14%;float:left;" src="./static/images/gallery/3/init.png"/>
               <img style="width: 14%;float:left;" src="./static/images/gallery/3/final.png"/>
               <img style="width: 14%;float:left;" src="./static/images/gallery/3/blub.gif"/>
-              <div style="float:left;margin-top:50px;margin-left:30px;writing-mode:vertical-lr">swim ring</div>
+              <div style="float:left;margin-top:50px;margin-left:30px;writing-mode:vertical-lr">swim-ring</div>
               <img style="width: 14%;float:left;" src="./static/images/gallery/4/init.png"/>
               <img style="width: 14%;float:left;" src="./static/images/gallery/4/final.png"/>
               <img style="width: 14%;" src="./static/images/gallery/4/bob.gif"/>
@@ -393,15 +393,15 @@
           <div style="width: 23%;float:left;text-align:center">Inner Structure</div>
           <br/>
           <br/>
-        <h3 class="title is-6">Wobble Doll</h3>  
+        <h3 class="title is-6">Wobbly Doll</h3>  
         <img style="width: 23%;" src="./static/images/tumbler/gt.gif"/>
         <img style="width: 23%;" src="./static/images/tumbler/init.gif"/>
         <img style="width: 23%;" src="./static/images/tumbler/opt.gif"/>
         <img style="width: 23%;" src="./static/images/tumbler/inner.png"/>
         <br/>
-          <div style="width: 23%;float:left;text-align:center">Reference (T=0.68s)</div>
-          <div style="width: 23%;float:left;text-align:center">Initial Guess (T=1.08s)</div>
-          <div style="width: 23%;float:left;text-align:center">Optimized Result (T=0.73s)</div>
+          <div style="width: 23%;float:left;text-align:center">Reference (4.0Hz)</div>
+          <div style="width: 23%;float:left;text-align:center">Initial Guess (2.4Hz)</div>
+          <div style="width: 23%;float:left;text-align:center">Optimized Result (4.0Hz)</div>
           <div style="width: 23%;float:left;text-align:center">Inner Structure</div>
           <br/>
           <hr/>
@@ -423,6 +423,7 @@
       <br/>
       <div class="image-container">
         <h2 class="title is-4">Soft Body</h2>
+        <h3 class="title is-6">Pneumatic Finger</h3>  
         <img style="width: 23%;" src="./static/images/hand/gt.jpg"/>
         <img style="width: 23%;" src="./static/images/hand/init.png"/>
         <img style="width: 23%;" src="./static/images/hand/opt.png"/>
@@ -445,9 +446,18 @@
   <div class="container is-max-desktop">
     <h2 class="title is-3" style="text-align: center;">Metrics</h2>
       <div class="image-container">
-        <h2 class="title is-4">Processing Time</h2>
+        <h2 class="title is-4">Optimization Loss</h2>
           <div style="text-align: center;">
-            <img style="width: 60%;margin:auto;" src="./static/images/table1.png"/>
+            <img style="width: 60%;margin:auto;" src="./static/images/loss.png"/>
+          </div>
+            </object>
+      </div>
+
+      <br/>
+      <div class="image-container">
+        <h2 class="title is-4">Volumetric Shape Generation Time </h2>
+          <div style="text-align: center;">
+            <img style="width: 60%;margin:auto;" src="./static/images/time.png"/>
           </div>
             </object>
       </div>
@@ -455,7 +465,7 @@
       <br/>
       <div class="image-container">
         <h2 class="title is-4">Reconstruction Quality</h2>
-          <div style="text-align: center;"><img style="width: 60%;margin:auto;" src="./static/images/table2.png"/></div>
+          <div style="text-align: center;"><img style="width: 60%;margin:auto;" src="./static/images/table3.png"/></div>
             
             </object>
       </div>
@@ -463,7 +473,7 @@
   <script src="./static/js/comparison.js"></script>
   </div>
 </section>
-
+<hr/>
 <section class="section"></section>
   <div class="container is-max-desktop">
     <h2 class="title is-3" style="text-align: center;">Comparison of Optimized Inner Structures </h2>
@@ -487,7 +497,7 @@
       <img style="width: 23%;" src="./static/images/gallery/3/blub_mesh-4.gif"/>
     </div>
     <div class="image-container">
-      <div style="float:left;margin-top:80px;writing-mode:vertical-lr">swim ring</div>
+      <div style="float:left;margin-top:80px;writing-mode:vertical-lr">swim-ring</div>
       <img style="width: 23%;" src="./static/images/gallery/4/bob.gif"/>
       <img style="width: 23%;" src="./static/images/gallery/4/bob_mesh.gif"/>
       <img style="width: 23%;" src="./static/images/gallery/4/bob_mesh-2.gif"/>
